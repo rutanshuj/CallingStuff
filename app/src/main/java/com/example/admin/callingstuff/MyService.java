@@ -14,10 +14,8 @@ public class MyService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-
         Toast.makeText(this, "Service Started", Toast.LENGTH_SHORT).show();
         return START_STICKY;
-
     }
     @Override
     public void onDestroy() {

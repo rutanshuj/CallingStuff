@@ -5,11 +5,6 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.widget.Toast;
-
-/**
- * Created by RutanshuJhaveri on 4/18/2017.
- */
 
 public class Button_listener extends BroadcastReceiver {
     @Override
