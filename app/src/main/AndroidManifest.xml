@@ -18,6 +18,12 @@
                 <action android:name="IncomingCallInterceptor" />
             </intent-filter>
         </receiver>
+        <receiver android:name="Button_listener">
+            <intent-filter>
+                <action android:name="button_clicked"/>
+            </intent-filter>
+
+        </receiver>
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -31,7 +37,8 @@
             android:name=".MyService"
             android:exported="false" />
 
-        <activity android:name=".Activity2"></activity>
+        <activity android:name=".Activity2" />
+        <activity android:name=".NotificationActivity"></activity>
     </application>
 
 </manifest>
